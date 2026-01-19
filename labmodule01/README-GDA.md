@@ -2,21 +2,23 @@
 
 ## Lab Module 01
 
-Be sure to implement all the PIOT-GDA-* issues (requirements) listed at [PIOT-INF-01-001 - Lab Module 01](https://github.com/orgs/programming-the-iot/projects/1#column-9974937).
+Be sure to implement all the PIOT-GDA-\* issues (requirements) listed at [PIOT-INF-01-001 - Lab Module 01](https://github.com/orgs/programming-the-iot/projects/1#column-9974937).
 
 ### Description
 
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
-What does your implementation do? 
+What does your implementation do?
+Basically nothing but set IDE environment for Maven project.
 
 How does your implementation work?
+We now have all dependencies in pom.xml and use mvn install to validate, test (but we skip in this module), package, and create a jar artifact. Then I run the executable file.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: 
+URL:
 
 ### UML Design Diagram(s)
 
@@ -24,16 +26,15 @@ NOTE: Include one or more UML designs representing your solution. It's expected 
 diagram you provide will look similar to, but not the same as, its counterpart in the
 book [Programming the IoT](https://learning.oreilly.com/library/view/programming-the-internet/9781492081401/).
 
-
 ### Unit Tests Executed
 
 NOTE: TA's will execute your unit tests. You only need to list each test case below
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
-- 
-- 
-- 
+- ConfigUtilDefaultTest
+- ConfigUtilCustomTest
+-
 
 ### Integration Tests Executed
 
@@ -42,8 +43,8 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
-- 
-- 
-- 
+- GatewayDeviceAppTest
+-
+-
 
 EOF.
