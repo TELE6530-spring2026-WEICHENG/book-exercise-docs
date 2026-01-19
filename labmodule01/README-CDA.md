@@ -18,7 +18,7 @@ I insert the correct PYTHONPATH for the project environment, which allows Python
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL:
+URL: https://github.com/TELE6530-spring2026-WEICHENG/book-exercise-docs
 
 ### UML Design Diagram(s)
 
