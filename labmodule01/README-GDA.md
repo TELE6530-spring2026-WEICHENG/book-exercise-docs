@@ -9,16 +9,18 @@ Be sure to implement all the PIOT-GDA-\* issues (requirements) listed at [PIOT-I
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do?
+
 Basically nothing but set IDE environment for Maven project.
 
 How does your implementation work?
+
 We now have all dependencies in pom.xml and use mvn install to validate, test (but we skip in this module), package, and create a jar artifact. Then I run the executable file.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/TELE6530-spring2026-WEICHENG/book-exercise-docs
+URL: https://github.com/TELE6530-spring2026-WEICHENG/gda-java-components/tree/lab1
 
 ### UML Design Diagram(s)
 

@@ -9,16 +9,18 @@ Be sure to implement all the PIOT-CDA-\* issues (requirements) listed at [PIOT-I
 NOTE: Include two full paragraphs describing your implementation approach by answering the questions listed below.
 
 What does your implementation do?
+
 In order to make this project run, I create a virtual environment where all dependencies are install correctly and designate PYTHONPATH for Python interpreter, thereby executing the project successfully.
 
 How does your implementation work?
+
 I insert the correct PYTHONPATH for the project environment, which allows Python interpreter know where packages are located.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL: https://github.com/TELE6530-spring2026-WEICHENG/book-exercise-docs
+URL: https://github.com/TELE6530-spring2026-WEICHENG/cda-python-components/tree/lab1
 
 ### UML Design Diagram(s)
 
@@ -33,9 +35,11 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 since you need to ensure you haven't introduced regressions.
 
 - test_ConfigUtilDefault
+
   Verifies that the project can load the default config file (PiotConfig.props) successfully and the crucial properties and sections can be found. The credential test is skipped for now.
 
 - test_ConfigUtilCustom
+
   It verifies that ConfigUtil can load a specified configuration file which is ValidTestConfig.props at this time, and and correctly access core configuration data.
 
 ### Integration Tests Executed
@@ -46,6 +50,7 @@ your code to ensure it's correct. As for the tests you execute, you only need to
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - test_ConstrainedDeviceApp
+
   At this moment, we just simply initiate ConstrainedDeviceApp class, making sure it runs as we expect.
 
 EOF.
