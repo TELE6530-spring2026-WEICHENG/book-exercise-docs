@@ -10,13 +10,16 @@ NOTE: Include two full paragraphs describing your implementation approach by ans
 
 What does your implementation do?
 
+Create a system performance manager to track current usage of CPU and memory for monitoring constrained device in the future.
+
 How does your implementation work?
+The SystemPerformanceManager is composed of SystemCpuUtilTask and SystemMemUtilTask. When it’s instantiated in GatewayDeviceApp, it periodically submits handleTelemetry() tasks to a thread pool. Each task retrieves the telemetry values for both CPU and memory.
 
 ### Code Repository and Branch
 
 NOTE: Be sure to include the branch (e.g. https://github.com/programming-the-iot/python-components/tree/alpha001).
 
-URL:
+URL: https://github.com/TELE6530-spring2026-WEICHENG/gda-java-components/tree/lab2
 
 ### UML Design Diagram(s)
 
@@ -32,9 +35,10 @@ NOTE: TA's will execute your unit tests. You only need to list each test case be
 (e.g. ConfigUtilTest, DataUtilTest, etc). Be sure to include all previous tests, too,
 since you need to ensure you haven't introduced regressions.
 
--
--
--
+-ConfigUtilDefaultTest
+-ConfigUtilCustomTest
+-SystemCpuUtilTaskTest
+-SystemMemUtilTaskTest
 
 ### Integration Tests Executed
 
@@ -43,8 +47,7 @@ some exceptions (such as your cloud connectivity tests). In such cases, they'll 
 your code to ensure it's correct. As for the tests you execute, you only need to list each
 test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
--
--
--
+-SystemPerformanceManagerTest
+-GatewayDeviceAppTest
 
 EOF.
