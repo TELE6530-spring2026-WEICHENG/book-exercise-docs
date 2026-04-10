@@ -20,12 +20,6 @@ More importantly, I want my gardening decisions to be data-driven rather than in
 
 ## How - Expected Technical Approach
 
-How do you plan to tackle this problem technically?
-
-Include a high-level design diagram depicting your planned technical approach - it does not need to be final, but it must include the CDA, GDA, and cloud services you plan to use, as well as the protocol(s) you will use for communicating between the devices and the cloud.
-
-Write 1 to 2 paragraphs describing your diagram.
-
 ![Class UML diagram](docs/UML/final-project-architecture.png)
 
 **_Edge tier_**
