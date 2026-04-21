@@ -86,6 +86,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - MqttClientConnectorTest
 - MqttClientConnectorTest testActuatorCommandResponseSubscription()
-- MqttClientConnectorTest testSendActuationEventsToCda()
+- DeviceDataManagerSimpleCdaActuationTest testSendActuationEventsToCda()
 
 EOF.

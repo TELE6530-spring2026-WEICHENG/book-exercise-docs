@@ -71,7 +71,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 - MqttClientConnectorTest
 - TimeAndValuePayloadDataTest
-- CloudClientConnectorTest
-- CloudClientConnectorTest with CloudClientConnector instance
+- CloudClientConnectorTest-testCloudClientConnectAndDisconnect(), testIntegratedCloudClientConnectAndDisconnect(), testPublishAndSubscribe()
 
 EOF.

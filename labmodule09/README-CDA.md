@@ -83,5 +83,6 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 ---
 
-- test_CoapAsyncClientConnectorTest
-  EOF.
+- test_CoapAsyncClientConnectorTest - testConnectAndDiscover(), testGetActuatorCommandCon(), testGetActuatorCommandNon(), testPutSensorMessageCon(), testPutSensorMessageNon(), testPostSensorMessageCon(), testPostSensorMessageNon(), testActuatorCommandObserve()
+
+EOF.

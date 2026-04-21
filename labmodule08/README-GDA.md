@@ -66,7 +66,7 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 ---
 
-- CoapServerGatewayTest
+- CoapServerGatewayTest -testRunSimpleCoapServerGatewayIntegration()
 - CoapClientToServerConnectorTest - testSystemPerformancePutMessage()
 
 EOF.

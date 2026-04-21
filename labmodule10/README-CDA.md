@@ -131,4 +131,8 @@ test case below (e.g. SensorSimAdapterManagerTest, DeviceDataManagerTest, etc.)
 
 ---
 
+- DeviceDataManagerWithCommsTest-testActuatorDataCallback() with enableMqttClient = False
+- MqttClientConnectorTest-testActuatorCmdPubSub() with enableCrypt = False
+- DeviceDataManagerIntegrationTest-testDeviceDataMgrTimedIntegration() with enableEmulator = True
+
 EOF.
